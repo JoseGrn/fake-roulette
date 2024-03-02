@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Estilos para el botón de eliminar */
+.delete-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #9f9e9e;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  color: #485460;
+}
+
+.options-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.options-section input[type="text"], .options-section button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.options-section button {
+  cursor: pointer;
+  background-color: #485460;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.options-section button:hover {
+  background-color: #303952;
+}
+
+.wheel-section {
+  text-align: center;
+}
+
+.spin-button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.spin-button button {
+  cursor: pointer;
+  background-color: #485460;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.spin-button button:hover {
+  background-color: #303952;
+}
+
+.options-list .option-item {
+  display: flex;
+  align-items: center;
+}
+
+.options-list .option-item .option-text {
+  flex: 1;
+}
+
+.options-list .option-item .delete-button {
+  margin-left: 10px; /* Espacio entre el texto y el botón */
+}
+
+.options-list div {
+  background-color: #303952;
+  color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#result {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #ff6f61;
+}

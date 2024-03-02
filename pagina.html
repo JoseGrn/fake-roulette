@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruleta de opciones</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-L+Z3wI1p+ScRoOp5FnEgIKYnF2cn0guyFhA3FpHpP6gdhz3RAty9S9wLz7T/c8Bjw7oPr/CFKdP+IRXaZPWwrA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Ruleta de opciones</h1>
+    </div>
+    <div class="options-section">
+      <input type="text" id="optionInput" placeholder="Ingrese una opción">
+      <button onclick="addOption()">Agregar opción</button>
+    </div>
+    <div class="wheel-section">
+      <div class="spin-button">
+        <button onclick="spinWheel()">Girar ruleta</button>
+      </div>
+    </div>
+    <div class="options-list" id="optionsList"></div>
+    <div class="result-section">
+      <p id="result"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
